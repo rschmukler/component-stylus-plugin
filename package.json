@@ -1,0 +1,19 @@
+{
+  "name": "component-stylus-plugin",
+  "version": "0.1.0",
+  "description": "Highly customizable Stylus compiler plugin for Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rschmukler/component-stylus-plugin"
+  },
+  "keywords": [
+    "component",
+    "stylus"
+  ],
+  "author": "Ryan Schmukler",
+  "license": "MIT"
+}
