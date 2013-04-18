@@ -1,6 +1,6 @@
 {
   "name": "component-stylus-plugin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Highly customizable Stylus compiler plugin for Component",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "rschmukler/component-stylus-plugin"
+    "url": "git://github.com/rschmukler/component-stylus-plugin"
   },
   "keywords": [
     "component",
