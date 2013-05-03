@@ -1,4 +1,9 @@
 
+0.2.2 / 2013-05-03 
+==================
+
+  * the plugin now doesn't reorder your style files
+
 0.2.1 / 2013-04-18 
 ==================
 
