@@ -17,8 +17,8 @@
   "author": "Ryan Schmukler",
   "license": "MIT",
   "dependencies": {
-    "batch": "~0.3.2",
-    "stylus": "~0.32.1",
+    "batch": "~0.5.0",
+    "stylus": "~0.36.0",
     "debug": "~0.7.2"
   }
 }
