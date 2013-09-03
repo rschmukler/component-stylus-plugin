@@ -1,4 +1,9 @@
 
+0.2.4 / 2013-09-03 
+==================
+
+ * Use add/removeFile methods to normalize integration with other component plugins
+
 0.2.3 / 2013-08-02 
 ==================
 
