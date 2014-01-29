@@ -1,3 +1,8 @@
+0.2.6 / 2014-01-29
+==================
+
+ * Wildcard `stylus` dependency to use latest version or the one stated in upper-level `package.json`.
+
 0.2.5 / 2013-11-11
 ==================
 
