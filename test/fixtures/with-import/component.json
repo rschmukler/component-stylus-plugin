@@ -1,0 +1,12 @@
+{
+  "name": "with-import",
+  "paths": [
+    "../"
+  ],
+  "local": [
+    "utils"
+  ],
+  "styles": [
+    "index.styl"
+  ]
+}
