@@ -4,7 +4,7 @@
   "description": "Highly customizable Stylus compiler plugin for Component",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
     "batch": "~0.5.0",
     "stylus": "0.x.x",
     "debug": "~0.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "component-builder": "^0.10.0"
   }
 }
