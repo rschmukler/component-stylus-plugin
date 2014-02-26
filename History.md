@@ -1,3 +1,10 @@
+
+0.3.0 / 2014-02-26 
+==================
+
+ * Ability to import another component's stylus file
+ * Forgotten var, fixes a global leak.
+
 0.2.6 / 2014-01-29
 ==================
 

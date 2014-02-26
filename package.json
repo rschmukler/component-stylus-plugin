@@ -1,6 +1,6 @@
 {
   "name": "component-stylus-plugin",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "Highly customizable Stylus compiler plugin for Component",
   "main": "index.js",
   "scripts": {
