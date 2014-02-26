@@ -1,6 +1,9 @@
 {
   "name": "utils",
   "styles": [
-    "index.styl"
+    "mixin.styl",
+    "variable.styl",
+    "placeholder.styl",
+    "function.styl"
   ]
 }

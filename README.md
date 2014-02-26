@@ -47,6 +47,32 @@ variable definitions. You must provide a full path to the files.
     stylusPlugin.imports = [__dirname + '/../globals/variableDefinitions.styl',
                             __dirname + '/../globals/customMixins.styl']
 
+If you don't want to have to define imported files in the `stylusPlugin.imports` option, it is possible to import stylus file from a component using `@import "componentName/fileName"`
+
+For instance:
+```
+{
+  ...
+  "local": [
+    "base-styles"
+  ],
+}
+```
+
+```
+@import "base-styles/animation-mixin";
+
+.foo {
+  animation();
+  position: relative;
+}
+```
+
+There is an example in the [tests](https://github.com/rschmukler/component-stylus-plugin/tree/master/test/fixtures/with-import).
+
+**However, you must be careful to not import files containing CSS properties, otherwise they will be duplicated in the output.**
+Only import files containing variables, placeholder selectors, functions or mixins.
+
 ### Include CSS (default false)
 
 Allow `@import` statements to load up regular CSS.

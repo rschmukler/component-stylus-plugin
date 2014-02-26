@@ -1,10 +1,14 @@
-@import "utils/index";
+@import "utils/mixin";
+@import "utils/placeholder";
+@import "utils/function";
+@import "utils/variable";
 
-body {
-  test();
-  color: red;
+.bar {
+  @extend $foo;
+  mixin();
+  font-size: add(font-size, 10);
+}
 
-  div {
-    display: block;
-  }
+#barz {
+  @extend $foo;
 }

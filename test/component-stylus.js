@@ -43,7 +43,7 @@ describe('component-stylus', function() {
 
     builder.build(function(err, res) {
       if (err) return done(err);
-      assert.equal(res.css.trim(), 'body {\n  content: "test";\n  color: #f00;\n}\nbody div {\n  display: block;\n}');
+      assert.equal(res.css.trim(), '.bar,\n#barz {\n  content: "foo";\n}\n.bar {\n  content: "mixin";\n  font-size: 24px;\n}');
       done();
     });
   });
