@@ -1,4 +1,9 @@
 
+0.3.1 / 2014-04-25 
+==================
+
+ * Pin stylus dependency for temp fix [@cristiandouce]
+
 0.3.0 / 2014-02-26 
 ==================
 
